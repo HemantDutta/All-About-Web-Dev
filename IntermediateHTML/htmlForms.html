@@ -5,6 +5,13 @@
     <title>HTML Forms</title>
 </head>
 <body>
-
+<form action="mailto:hemantdutta2978@gmail.com" method="post" enctype="text/plain"> <!-- "mailto" action opens your default mail editor and provides the contents of the form in text format as the email data, that will be sent to the email mentioned after confirmation -->
+<!--  enctype attribute of form element will set the encoding for the form data, text/plain will provide us with plain text data for our email, rather than coded data  -->
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name"><br>
+    <label for="hobby">Hobby</label>
+    <input type="text" name="hobby" id="hobby"><br>
+    <button type="submit">Submit</button>
+</form>
 </body>
 </html>
