@@ -2,6 +2,10 @@ body{
     background-color: #2D033B;
     margin: 0;
     text-align: center;
+    font-family: Verdana, sans-serif;
+/*  We can use monospace font family to display code in our website  */
+/*  Find web safe font family stacks on the internet to make sure the user's browser is able to render the text in your desired font  */
+/*  We can also embed fonts using fonts.google.com, so that even if the user's device doesn't have a particular font installed, it will still render the mentioned font, since it is embedded  */
 }
 
 div.topCont{
@@ -14,7 +18,7 @@ div.topCont{
 
 h1{
     /*If we use width on element who parent element contain a text-align: center, the child element will no longer remain centered*/
-    width: 20%;
+    width: max-content;
     /*To overcome this issue, we use margin auto property, by setting the left and right margin to auto, we center the element*/
     margin: 0 auto 0 auto;
 }
