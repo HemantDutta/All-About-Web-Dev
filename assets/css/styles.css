@@ -7,23 +7,24 @@ div.topCont{
     background-color: #810CA8;
     color: white;
     padding: 20px;
-    width: 200px;
 }
 
 h1{
     margin: 0;
 }
 
+.topCont span{
+    text-decoration: underline;
+}
+
 .midCont{
     background-color: #C147E9;
-    border: 20px solid black;
-    margin-left: 240px;
+
 }
 
 .bottomCont{
     background-color: #E5B8F4;
-    margin-left: 480px;
-    border: 10px solid black;
+
 }
 
 .bottomCont, .midCont {
