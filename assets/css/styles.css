@@ -1,8 +1,27 @@
 body{
     background-color: #2D033B;
+    margin: 0;
 }
 
-div{
+div.topCont{
     background-color: #810CA8;
     color: white;
+}
+
+h1{
+    margin: 0;
+}
+
+.midCont{
+    background-color: #C147E9;
+}
+
+.bottomCont{
+    background-color: #E5B8F4;
+}
+
+.bottomCont, .midCont {
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
 }
