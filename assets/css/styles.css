@@ -37,7 +37,12 @@ h1{
     position: absolute;
     left: 80px;
 }
-
+.profileImg{
+    object-fit: cover;
+    width: 20%;
+    height: 200px;
+    border-radius: 100%;
+}
 .midCont{
     background-color: #C147E9;
 }
@@ -48,7 +53,6 @@ h1{
 }
 
 .bottomCont, .midCont {
-    height: 200px;
-    width: 200px;
+
 
 }
