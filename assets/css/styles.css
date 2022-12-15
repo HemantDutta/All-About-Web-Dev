@@ -6,9 +6,7 @@ body{
 div.topCont{
     background-color: #810CA8;
     color: white;
-    height: 200px;
-    width: 200px;
-    position: absolute;
+    padding: 20px;
 }
 
 h1{
@@ -21,16 +19,10 @@ h1{
 
 .midCont{
     background-color: #C147E9;
-    position: absolute;
-    top: 200px;
-    left: 200px;
 }
 
 .bottomCont{
     background-color: #E5B8F4;
-    position: absolute;
-    top: 400px;
-    left: 400px;
 
 }
 
