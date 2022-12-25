@@ -4,6 +4,9 @@ const app = express();
 
 const port = 3001;
 
+//if you want to link files like css stylesheets, make sure use app.use to include the path where these files are stored
+app.use(express.static(__dirname + "/"));
+
 app.listen(port, function (){
     console.log("Server is running on port 3001");
 });
