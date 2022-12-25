@@ -9,5 +9,6 @@ app.listen(port, function (){
 });
 
 app.get("/", (req,res)=>{
-   res.send("Calculator App!");
+   //When we want to render an html file to a route, we use res.sendFile, which takes in the html file path as a parameter, the __dirname automatically inputs in the current directory path.
+    res.sendFile(__dirname + '/index.html');
 });
