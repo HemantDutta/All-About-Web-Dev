@@ -13,3 +13,9 @@ app.listen(port, function (){
     console.log("Server is running on port 3000");
 });
 
+
+//Handling Get Requests
+app.get("/", (req,res)=>{
+   res.send('<h1>Hello Universe!</h1>')
+});
+
