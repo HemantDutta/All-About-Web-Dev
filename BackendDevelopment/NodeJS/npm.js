@@ -11,6 +11,6 @@ console.log(shName);
 const rw = require("random-words");
 
 let wordString = rw({exactly: 100, join: ' '});
-console.log(wordString);
+console.log(wordString.split(' '));
 
 //This is exactly what I needed ;)
