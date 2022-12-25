@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "random-words": "^1.2.0",
     "superheroes": "^3.0.0"
   }
 }
