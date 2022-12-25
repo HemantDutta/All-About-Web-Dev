@@ -19,3 +19,7 @@ app.get("/", (req,res)=>{
    res.send('<h1>Hello Universe!</h1>')
 });
 
+app.get("/about", (req,res)=>{
+   res.send('<h2>We about it Bruv!</h2>')
+});
+
