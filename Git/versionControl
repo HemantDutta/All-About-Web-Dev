@@ -1,0 +1,29 @@
+# How to Create Repo locally
+
+- Open cmd and cd into the directory
+- git init
+- empty git repo will be initialized
+
+
+# Check changes made to a file
+- git checkout filename.extension
+
+
+# Revert a file to previous commit
+- git checkout filename.extension
+
+# How to check commit log
+- git log
+
+# How to create new branch 
+- git branch branch_name
+
+# how to see all branches
+- git branch
+
+# How to start using a branch
+- git checkout branch_name
+
+# How to merge a branch with master branch
+- git checkout master
+- git merge branch_name

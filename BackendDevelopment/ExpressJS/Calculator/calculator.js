@@ -24,6 +24,7 @@ app.get("/", (req,res)=>{
 //Handling Post Requests
 //This post request will be made by the form tag in our index.html file, since we used the action="/" and method="post" attributes, making a post request at "/"
 app.post("/", (req,res)=>{
+    //Body parser is needed for using req.body
     console.log(req.body);
 
     let num1 = Number(req.body.num1);
